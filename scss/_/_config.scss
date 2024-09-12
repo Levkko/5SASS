@@ -1,0 +1,29 @@
+$light-color: #f4f4f4;
+$font-stack: Arial, Helvetica, sans-serif;
+//$primary-color: #5e55aa;
+$primary-color: #5e55aa;
+$primary-color-alt: #dcd8ff;
+$button-color: #5a558a;
+$button-dark: #ffffff;
+$secondary-color: #79cfee;
+
+
+
+//Колір тексту відносно фону
+@function set-text-color($color) {
+    @if(lightness($color) > 70) {
+        @return #333;
+    } @else {
+        @return #fff;
+    }
+}
+
+
+
+
+
+//Фон і текст один колір
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color)
+}

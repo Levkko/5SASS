@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Levko site</title>
+    <link rel="stylesheet" href="scss/sasmain.css" />
+  </head>
+  <body class="dark-theme"> 
+    
+    <header class="chow">
+      <div class="container">
+        <nav>
+          <h1 id="levko">Levko</h1>
+          <ul>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#contact">Контакти</a></li>
+            <li>
+              <button class="theme-toggle">Тема</button> 
+            </li>
+          </ul>
+        </nav>
+        <div class="marketing">
+          <div>
+            <h1>Cat Interior Design</h1>
+            <p class="my-1">
+              Скільки себе пам'ятаю. Завжди світили мені. Вікна в задумі розмаю,
+              І рушники на стіні. Мамо, ваші діти як птиці, В далеч забриніли
+              крильми. Мамо, в рідні стіни світлиці Скоро знов повернемось ми.
+              Вічна дитяча спокусо - Двері прочиниш, а там - Білим недільним
+              обрусом. Сяє світлиця сватам.
+            </p>
+            <a href="#" class="btn-primary">Learn More</a>
+            <a href="#" class="btn-secondary">Sign Up</a>
+          </div>
+          <img src="cat.png" />
+        </div>
+      </div>
+    </header>
+    <script>
+      document.querySelector('.theme-toggle').addEventListener('click', function() {
+        document.body.classList.toggle('dark-theme');
+      });
+    </script>
+  </body>
+</html>

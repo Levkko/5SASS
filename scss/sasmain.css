@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  width: 25%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#levko {
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.65em;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: block;
+}
+
+.chow {
+  background-color: #5e55aa;
+  color: #fff;
+  height: 600px;
+}
+.chow .theme {
+  cursor: pointer;
+  background-color: #5e55aa;
+  color: #fff;
+}
+.chow nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chow nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.chow nav li {
+  padding: 15px;
+}
+.chow nav a:hover {
+  color: #79cfee;
+}
+.chow a {
+  color: #fff;
+}
+.chow .marketing {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 150px;
+}
+.chow .marketing img {
+  width: 35%;
+}
+.chow .marketing h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+.chow .marketing p {
+  max-width: 80%;
+}
+
+body.light-theme .chow {
+  background-color: #5e55aa;
+  color: #fff;
+}
+body.light-theme .chow #scrollToTop {
+  color: #fff;
+}
+body.light-theme .chow .btn-primary {
+  background-color: #5e55aa;
+}
+body.light-theme .chow a {
+  color: #fff;
+}
+
+body.dark-theme .chow {
+  background-color: #dcd8ff;
+  color: #333;
+}
+body.dark-theme .chow #levko {
+  color: #333;
+}
+body.dark-theme .chow .btn-primary {
+  background-color: #ffffff;
+}
+body.dark-theme .chow a {
+  color: #333;
+}
+
+.theme-toggle {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100%;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #726da5;
+}
+
+.btn-secondary {
+  background-color: #79cfee;
+}
+
+@media (max-width: 700px) {
+  .chow {
+    height: 700px;
+  }
+  .marketing {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .marketing img {
+    display: none;
+  }
+  p {
+    min-width: 100%;
+  }
+}/*# sourceMappingURL=sasmain.css.map */
